@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 8px;
+}
+
+table th {
+  background: #f8b2b2;
+}
+
+.controls button {
+  padding: 2px 6px;
+  margin: 0 2px;
+}
+
+.result {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.result button {
+  background: #4a90e2;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.val-input {
+  width: 50px;
+  text-align: center;
+  font-size: 14px;
+  padding: 2px;
+}
+
+td.training-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+td.training-cell button {
+  padding: 2px 8px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    text-align: center;
+    font-size: 14px;
+    width: 50px;
+    height: 25px;
+}
